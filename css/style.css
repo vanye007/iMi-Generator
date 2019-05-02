@@ -1,0 +1,34 @@
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: solid 1px black;
+}
+
+img{
+  display: none;
+}
+
+#btn{
+  padding: 15px;
+  margin: 15px;
+  font-size: 15px;
+  background-color: #ff0000;
+  width: 100px;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 300px;
+}
+
+
+#btn2{
+  padding: 15px;
+  margin: 15px;
+  font-size: 15px;
+  background-color: #1d99dd;
+  width: 100px;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 500px;
+}
