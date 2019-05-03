@@ -257,6 +257,17 @@ window.onload = function(){
   pencil2.fillText("12",1030,355);
   pencil2.fillText("14",1045,355);
 
+  // DC_BUS(grid B1) (label)
+  pencil.fillText("3",52,591);
+  pencil.fillText("2",62,591);
+  pencil.fillText("1",72,591);
+
+  // FIL_SEL(grid B1) (label)
+  pencil.fillText("5",112,591);
+  pencil.fillText("4",122,591);
+  pencil.fillText("3",132,591);
+  pencil.fillText("2",142,591);
+  pencil.fillText("1",152,591);
 
   pencil2.fillText("X3",1025,190);
 
