@@ -1050,9 +1050,11 @@ drawTerminal(1041,320);
 //  GRID C5 TI input terminal top ------------------------------------------------
 //5
 drawLine2(1118, 460, 1118, 437);
+// SAL 1 (grid C5)
 drawBigRect(850,287,8,18,0.7);
 //9
 drawLine2(1160, 460, 1160, 437);
+// F1-N (grid C5)
 drawBigRect(882,287,8,18,0.7);
 
 // GRID C6 TI output terminal top -----------------------------------------------
