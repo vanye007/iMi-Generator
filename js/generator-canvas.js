@@ -178,8 +178,6 @@ window.onload = function(){
   pencil.fillText("T1 output terminal",980,280);
 
 
-
-
   var pencil2 = c.getContext("2d");
   pencil2.font = "7px Arial";
 
@@ -311,7 +309,6 @@ window.onload = function(){
 function drawVerticalGrid(y,alpha){
   pencil.moveTo(0,y);
   pencil.lineTo(840 + scaleSize,  y,alpha);
-
   pencil.stroke();
 };
 // End of vertical grid -----------------------------------------------
@@ -353,16 +350,12 @@ function drawTerminal(x,y){
 function drawLine2(xFROM,yFROM, xTO, yTO, color){
   pencil.beginPath();
   pencil.lineWidth = 0.6;
-  pencil.strokeStyle = color;
+  var col = color;
   pencil.globalAlpha = 0.5;
   pencil.moveTo(xFROM * scaleRatioWidth, yFROM * scaleRatioHeight);
   pencil.lineTo(xTO * scaleRatioWidth, yTO * scaleRatioHeight);
   pencil.stroke();
 };
-
-
-
-
 
 
 function drawTriangle(x,y){
@@ -437,8 +430,6 @@ function drawCircle2(x,y,size, radius){
   pencil.fill();
   pencil.stroke();
 };
-
-
 
 function drawOverLappingLinesFromD2(y){
   var stopPosX = 480;
@@ -549,8 +540,6 @@ drawLine(peBoxX + 15, peBoxY, peBoxX, peBoxY);
 //Controls the width of the two lines coming from D1
 var lineWidthComingFromD1 = 290;
 var kM1width = 370;
-
-
 
 //first line coming from D1
 var firstLineComingFromD1Height = circlesYPosition[0] - 80;
