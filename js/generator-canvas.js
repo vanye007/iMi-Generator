@@ -1087,11 +1087,13 @@ drawBigRect(844,373,8,18,0.7);
 drawBigRect(852,373,8,18,0.7);
 
 drawLine2(1140, 513, 1140, 536);
-drawBigRect(863,373,8,18,0.7);
-drawBigRect(871,373,8,18,0.7);
+//T1-220V (grid 5C)
+drawBigRect(867,373,8,18,0.7);
 
-drawLine2(1165, 513, 1165, 536)
+drawLine2(1165, 513, 1165, 536);
+//INV-V (grid 5C)
 drawBigRect(882,373,8,18,0.7);
+//T1-Tem1 (grid 5C)
 drawBigRect(890,373,8,18,0.7);
 
 drawLine2(1205, 513, 1205, 536);
