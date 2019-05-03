@@ -1073,14 +1073,17 @@ drawBigRect(1046,287,8,18,0.7);
 
 
 // T1 input terminal bottom
+//T1-277V (grid 5C)
 drawLine2(1094, 513, 1094, 536);
 drawBigRect(816,373,8,18,0.7);
 
-
+//T1-254V (grid 5C)
 drawBigRect(831,373,8,18,0.7);
 
 drawLine2(1118, 513, 1118, 536);
+//T1-230V (grid 5C)
 drawBigRect(844,373,8,18,0.7);
+//LW-L (grid 5C)
 drawBigRect(852,373,8,18,0.7);
 
 drawLine2(1140, 513, 1140, 536);
