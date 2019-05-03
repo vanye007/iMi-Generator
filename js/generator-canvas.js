@@ -148,6 +148,10 @@ window.onload = function(){
   pencil.fillText("B",420,574);
   pencil.fillText("A",420,587);
   pencil.fillText("Power",630,560);
+  pencil.fillText("1",620,595);
+  pencil.fillText("2",630,595);
+  pencil.fillText("3",640,595);
+  pencil.fillText("4",650,595);
   pencil.fillText("OLED",680,462);
   pencil.fillText("PE",700,597);
 
@@ -206,7 +210,12 @@ window.onload = function(){
   pencil2.fillText("14",917,355);
 
   pencil2.fillText("10P",705,455);
-  pencil2.fillText("X17",705,455);
+  pencil2.fillText("X17",705,467);
+
+  pencil2.fillText("50P",705,525);
+  pencil2.fillText("X10",705,537);
+
+  pencil2.fillText("X1",665,605);
 
   pencil2.fillText("1",944,328);
   pencil2.fillText("3",962,328);
