@@ -304,6 +304,7 @@ window.onload = function(){
   }
 
 
+
 // End of horizontal grid -----------------------------------------------
 
 // Draw vertical grid ---------------------------------------------------
@@ -335,17 +336,19 @@ function drawLine(xFROM,yFROM, xTO, yTO, color){
   pencil.stroke();
 };
 
-
-
-function drawRect(x,y){
-  pencil.rect(x,y, 17, 7);
-  pencil.fillStyle = "#ffffff";
-  pencil.fill();
-  pencil.globalAlpha = 1;
-  //pencil.lineWidth = 0.7;
-  pencil.strokeStyle = "black";
+function drawBigRect(x, y, sizex, sizey){
+  pencil.rect(x,y, sizex, sizey);
   pencil.stroke();
 };
+
+function drawTerminal(x,y){
+  var w = 17;
+  var l = 12;
+  drawBigRect(x,y,w,l);
+  drawBigRect(x,y + 13,w,l);
+  drawBigRect(x,y + 26,w,l);
+};
+
 
 function drawLine2(xFROM,yFROM, xTO, yTO, color){
   pencil.beginPath();
@@ -360,13 +363,6 @@ function drawLine2(xFROM,yFROM, xTO, yTO, color){
 
 
 
-function drawBigRect(x, y, sizex, sizey,width){
-  pencil.rect(x,y, sizex, sizey);
-  pencil.fillStyle = "transparent";
-  pencil.fill();
-  pencil.lineWidth = width;
-  pencil.stroke();
-};
 
 
 function drawTriangle(x,y){
@@ -421,16 +417,28 @@ function drawCircle(x,y,size, radius){
   pencil.stroke();
 };
 
+function drawRect(x,y){
+  pencil.rect(x,y, 17, 7);
+  pencil.fillStyle = "#ffffff";
+  pencil.fill();
+  pencil.globalAlpha = 1;
+  //pencil.lineWidth = 0.7;
+  pencil.stroke();
+};
+
+
 function drawCircle2(x,y,size, radius){
   pencil.beginPath();
   pencil.globalAlpha = 1;
-  pencil.fillStyle = "black";
+  pencil.fillStyle = "#000000";
   var radius = size * scaleRatioWidth;
   linePos = x + radius;
   pencil.arc(x * scaleRatioWidth, y * scaleRatioHeight , radius, 0 * radian, 360 * radian);
   pencil.fill();
   pencil.stroke();
 };
+
+
 
 function drawOverLappingLinesFromD2(y){
   var stopPosX = 480;
@@ -1019,14 +1027,6 @@ drawLine2(818,550, 750,550);
 
 // end driver board ---------------------
 
-function drawTerminal(x,y){
-  var w = 17;
-  var l = 12;
-  var width = 0.29;
-  drawBigRect(x,y,w,l,width);
-  drawBigRect(x,y + 13,w,l,width);
-  drawBigRect(x,y + 26,w,l,width);
-}
 
 
 // Terminal C5 - C6-------------------------------------------------------------------------------------------------
