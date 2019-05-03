@@ -186,6 +186,12 @@ window.onload = function(){
   var pencil2 = c.getContext("2d");
   pencil2.font = "8.5px Calibri";
 
+  pencil2.fillText("+12V",165,288);
+  pencil2.fillText("COM",165,299);
+  pencil2.fillText("-12V",165,347);
+  pencil2.fillText("+12V",165,357);
+  pencil2.fillText("COM",165,365);
+  pencil2.fillText("+5V",165,375);
 
   pencil2.fillText("1",815,328);
   pencil2.fillText("3",833,328);
