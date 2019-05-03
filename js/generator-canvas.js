@@ -209,6 +209,17 @@ window.onload = function(){
   pencil2.fillText("12",900,355);
   pencil2.fillText("14",917,355);
 
+  pencil2.fillText("9P",467,448);
+  pencil2.fillText("X19",467,458);
+
+  pencil2.fillText("X9",456,495);
+
+  pencil2.fillText("X11",456,530);
+
+  pencil2.fillText("X12",456,565);
+
+  pencil2.fillText("X4",456,600);
+
   pencil2.fillText("10P",705,455);
   pencil2.fillText("X17",705,467);
 
