@@ -563,6 +563,8 @@ drawLine(190,150,190,170);
 drawBigRect(getOverLappingLine[0] - 14,165,12, 25);
 drawLine(190,210,190,235);
 drawCrossX(crossX,110,139,15,15);
+// Dotted line from l to N (grid D1)
+drawDottedLine(120,169,120,203);
 
 //PE (grid D1)
 drawCircle(gridD1CircleX,circlesYPosition[2],8);
@@ -571,10 +573,13 @@ drawLine(linePos,circlesYPosition[2], 80,circlesYPosition[2]);
 drawLine( 80,circlesYPosition[2],80, 235);
 var peBoxY = 235;
 var peBoxX = 95;
+
+// 1st PE
 drawLine(80, peBoxY, peBoxX , peBoxY);
 drawLine(peBoxX, peBoxY, peBoxX, 265);
 drawLine(peBoxX, 265, 80, 265);
 drawLine(80, 265, 80, peBoxY);
+// 2nd PE
 drawLine(peBoxX, 265, peBoxX + 15, 265);
 drawLine(peBoxX + 15, 265, peBoxX + 15, peBoxY);
 drawLine(peBoxX + 15, peBoxY, peBoxX, peBoxY);
