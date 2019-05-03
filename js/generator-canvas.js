@@ -269,6 +269,13 @@ window.onload = function(){
   pencil.fillText("2",142,591);
   pencil.fillText("1",152,591);
 
+  // Contactor Control (grid B2) (label)
+  pencil.fillText("5",188,591);
+  pencil.fillText("4",198,591);
+  pencil.fillText("3",208,591);
+  pencil.fillText("2",218,591);
+  pencil.fillText("1",228,591);
+
   pencil2.fillText("X3",1025,190);
 
   pencil2.fillText("KM1",303,230);
