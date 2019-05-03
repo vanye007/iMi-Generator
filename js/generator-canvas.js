@@ -151,6 +151,7 @@ window.onload = function(){
   pencil.fillText("OLED",680,462);
   pencil.fillText("PE",700,597);
 
+
   pencil.fillText("Interface Board",880,560);
 
 
@@ -204,6 +205,8 @@ window.onload = function(){
   pencil2.fillText("12",900,355);
   pencil2.fillText("14",917,355);
 
+  pencil2.fillText("10P",705,455);
+  pencil2.fillText("X17",705,455);
 
   pencil2.fillText("1",944,328);
   pencil2.fillText("3",962,328);
@@ -246,6 +249,7 @@ window.onload = function(){
   pencil2.fillText("-12v",265,444);
   pencil2.fillText("+12v",265,455);
   pencil2.fillText("+5v",265,466);
+
 
 
   pencil2.fillText("X4",294,485);
