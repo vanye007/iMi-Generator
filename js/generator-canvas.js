@@ -1051,73 +1051,83 @@ drawTerminal(1041,320);
 //5
 drawLine2(1118, 460, 1118, 437);
 // SAL 1 (grid C5)
-drawBigRect(850,287,8,18,0.7);
+drawBigRect(848,287,10,18,0.7);
 //9
 drawLine2(1160, 460, 1160, 437);
 // F1-N (grid C5)
-drawBigRect(882,287,8,18,0.7);
+drawBigRect(880,287,10,18,0.7);
 
 // GRID C6 TI output terminal top -----------------------------------------------
 // 5
 drawLine2(1284, 460, 1284, 436);
-drawBigRect(976,287,8,18,0.7);
+drawBigRect(976,287,10,18,0.7);
 //9
 drawLine2(1328, 460, 1328, 437);
-drawBigRect(1010,287,8,18,0.7);
+drawBigRect(1010,287,10,18,0.7);
 //11
 drawLine2(1352, 460, 1352, 437);
-drawBigRect(1028,287,8,18,0.7);
+drawBigRect(1028,287,10,18,0.7);
 //13
 drawLine2(1374, 460, 1374, 437);
-drawBigRect(1046,287,8,18,0.7);
+drawBigRect(1046,287,10,18,0.7);
 
 
 // T1 input terminal bottom
 //T1-277V (grid 5C)
 drawLine2(1094, 513, 1094, 536);
-drawBigRect(816,373,8,18,0.7);
+drawBigRect(816,373,10,18,0.7);
 
 //T1-254V (grid 5C)
-drawBigRect(831,373,8,18,0.7);
+drawBigRect(831,373,10,18,0.7);
 
 drawLine2(1118, 513, 1118, 536);
 //T1-230V (grid 5C)
-drawBigRect(844,373,8,18,0.7);
+drawBigRect(844,373,10,18,0.7);
 //LW-L (grid 5C)
-drawBigRect(852,373,8,18,0.7);
+drawBigRect(854,373,10,18,0.7);
 
 drawLine2(1140, 513, 1140, 536);
 //T1-220V (grid 5C)
-drawBigRect(867,373,8,18,0.7);
+drawBigRect(867,373,10,18,0.7);
 
 drawLine2(1165, 513, 1165, 536);
+//T1-0V (grid 5C)
+drawBigRect(880,373,10,18,0.7);
 //INV-V (grid 5C)
-drawBigRect(882,373,8,18,0.7);
+drawBigRect(890,373,10,18,0.7);
+
 //T1-Tem1 (grid 5C)
-drawBigRect(890,373,8,18,0.7);
+drawBigRect(902,373,10,18,0.7);
 
 drawLine2(1205, 513, 1205, 536);
-drawBigRect(916,373,8,18,0.7);
+//T1-Tem2 (grid 5C)
+drawBigRect(916,373,10,18,0.7);
 
 
 // T1 output terminal
 drawLine2(1239, 513, 1239, 536);
-drawBigRect(942,373,8,22,0.7);
+//T1S1-24 (grid 5C)
+drawBigRect(941,373,10,22,0.7);
 
 drawLine2(1263, 513, 1263, 536);
-drawBigRect(960,373,8,22,0.7);
+//T1S1-0V (grid 5C)
+drawBigRect(959,373,10,22,0.7);
 
 drawLine2(1283, 513, 1283, 536);
-drawBigRect(976,373,8,22,0.7);
+//T1S2-220v (grid 5C)
+drawBigRect(975,373,10,22,0.7);
 
 drawLine2(1306, 513, 1306, 536);
-drawBigRect(994,373,8,22,0.7);
+//P1-L (grid 5C)
+drawBigRect(993,373,10,22,0.7);
 
 drawLine2(1330, 513, 1330, 536);
-drawBigRect(1012,373,8,22,0.7);
+//P1-N (grid 5C)
+drawBigRect(1011,373,10,22,0.7);
 
 drawLine2(1375, 513, 1375, 536);
-drawBigRect(1046,373,8,22,0.7);
+//T1S2-0V (grid 5C)
+drawBigRect(1045,373,10,22,0.7);
 
 
 //    -------------------------------------------------------------------------------------------------------------------------------------
