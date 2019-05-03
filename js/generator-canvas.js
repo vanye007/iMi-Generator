@@ -53,7 +53,7 @@ window.onload = function(){
   // initialize the canvas
   var c = document.getElementById('canvas');
   var pencil = c.getContext('2d');
-  pencil.font = "9px Arial";
+  pencil.font = "11px Calibri";
 
   //    -------------------------------------------------------------------------------------------------------------------------------------
   //
@@ -179,7 +179,7 @@ window.onload = function(){
 
 
   var pencil2 = c.getContext("2d");
-  pencil2.font = "7px Arial";
+  pencil2.font = "8.5px Calibri";
 
 
   pencil2.fillText("1",815,328);
