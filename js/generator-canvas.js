@@ -110,6 +110,8 @@ window.onload = function(){
 
   pencil.fillText("Power Module",105,330);
   pencil.fillText("P1-L",32,312);
+  pencil.fillText("L",86, 318);
+  pencil.fillText("N",86, 338);
   pencil.fillText("P1-N",32,332);
   pencil.fillText("+12v",213,285);
   pencil.fillText("GND",213,295);
@@ -929,7 +931,7 @@ drawLine(l12stopx + 112, 245, 1410, 235);
 // Power Module P1 (grid C1)
 drawBigRect(65,275, 140, 110,1);
 var img1 = document.getElementById("double-direct-switch");
-drawSwitch(img1,44,310,35,30);
+drawSwitch(img1,44,310,42,30);
 
 var img2 = document.getElementById("R-double-direct-switch");
 drawSwitch(img2,182,280,30,25);
